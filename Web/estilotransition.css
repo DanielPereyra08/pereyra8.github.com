@@ -1,0 +1,97 @@
+.container{
+    background: #86f;
+    padding: 20px 5px;
+}
+/*Transition*/
+/*.caja{
+    background: #025;
+    height: 80px;
+    width: 80px;
+    transition: left 2s,background 1s;
+    margin: 20px;
+    position: relative;
+    left: 0;
+}
+.container:hover > .caja{
+    background: #af2;
+    left: 80%;
+}
+.caja:first-child{
+    transition-timing-function: linear;
+}
+.caja:nth-child(2){
+    transition-timing-function: ease;
+}
+.caja:nth-child(3){
+    transition-timing-function: ease-in;
+}
+.caja:nth-child(4){
+    transition-timing-function: ease-out;
+}
+.caja:nth-child(5){
+    transition-timing-function: ease-in-out;
+}*/
+
+
+
+/*Animaciones*/
+/*
+.caja{
+    background: #025;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    animation: desplazarse 3s;
+    /*animation-timing-function: linear;*/
+    /*animation-timing-function: cubic-bezier(0.18, 1.09, 0.13, 0.24);
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-direction: alternate;
+    /*animation-fill-mode: forwards;*/
+    /*animation-fill-mode: both;
+
+    /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+    /*position: relative;
+}
+
+@keyframes desplazarse{
+    /*from{
+        left: 0;
+    }
+    to{
+        left: 100%;
+    }*//*
+    0%{
+        left: 0;
+        background: #000;
+    }
+    50%{
+        background: #f00;
+    }
+    100%{
+        left: 80%;
+        background: #0f0;
+    }
+}
+*/
+
+
+
+
+/*Transform*/
+/*.caja{
+    background: #025;
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    display: flex;
+    color: #fff;
+    transform: translate(100%,100%);
+    transform: scale(2);
+    transform: skew(30deg);
+
+}
+b{
+    margin: auto;
+
+}*/

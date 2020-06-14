@@ -1,0 +1,78 @@
+
+.screen-flex{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-width: 300px;
+    background: #0a8;
+
+}
+.nav__responsive{
+    display:none
+}
+.header{
+    width: 100%;
+    display: flex;
+    background: #4af;
+    height: 60px;
+    position:fixed;
+    z-index: 50;
+}
+.header h1{
+    flex-basis: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header .barra{
+    flex-basis: 60px;
+    border: 2px solid #000;
+    flex-shrink: 0;
+}
+.icono-barra{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    fill: #f00;
+}
+
+.icon{
+    position: fixed; 
+    top: 86%;
+    left: 12px;
+    border: 1px solid #f1e0e0;
+    border-radius: 80%;
+    background: #f1e8f1;;
+    box-shadow: -1px 0px 1px 1px #f7e6e6;
+    transition: top 1s;
+}
+
+.main{
+    margin: 20px;
+    margin-top: 80px;
+}
+.main__articulo {
+    display: flex;
+    background: #fffbcc;
+    border: 1px solid #999;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+.main__articulo-titulo{
+    flex-grow: 2;
+    z-index: 1;
+}
+.main__articulo-boton{
+    flex-shrink: 0;
+    flex-basis: 50px;
+    z-index: 1;
+}
+.main__articulo-article{
+    flex-basis: 100%;
+    transform: translate(0,-100%);
+    transition: transform 1s;
+    
+}
+.main__articulo:hover > .main__articulo-article{
+    transform: translate(0);
+}
